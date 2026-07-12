@@ -1,8 +1,22 @@
+"""
+Sanket AI Studio
+Main Application
+Version : 1.0
+"""
+
+from app.logger import log
+from app.validator import validate_project
+
+PROJECT_DIR = "."
+
+
 def main():
-    print("================================")
-    print(" Welcome to Sanket AI Studio ")
-    print(" Version 1.0")
-    print("================================")
+    log("🚀 Starting Sanket AI Studio...")
+
+    validate_project(PROJECT_DIR)
+
+    log("✅ Initialization Complete.")
+
 
 if __name__ == "__main__":
     main()
