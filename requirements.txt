@@ -1,1 +1,13 @@
-
+torch
+torchvision
+torchaudio
+gradio
+transformers
+huggingface_hub
+accelerate
+opencv-python
+numpy
+Pillow
+imageio
+ffmpeg-python
+safetensors
